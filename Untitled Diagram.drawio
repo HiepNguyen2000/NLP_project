@@ -1,9 +1,177 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T14:54:10.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.4" etag="fCSDGNN-U834PG1RaamQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T15:37:16.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nkvOPNMJpny-IA-pBNN0" version="22.1.4" type="github">
   <diagram name="Page-1" id="R4kVTaFT6lClcACHK1_M">
-    <mxGraphModel>
+    <mxGraphModel dx="1900" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-27" target="pLNrlrs9xXk7MrMHfogW-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-27" value="Data cleaning of input text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="60" as="sourcePoint" />
+            <mxPoint x="70" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Step 1&lt;/b&gt;&lt;/font&gt;: Loading the custom space NER base model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="60" as="sourcePoint" />
+            <mxPoint x="310" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-32" target="pLNrlrs9xXk7MrMHfogW-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-32" value="&lt;b&gt;Step 2&lt;/b&gt;: Clean full description goes to coreference model | spacy neural coref model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="312" y="20" width="188" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-34" target="pLNrlrs9xXk7MrMHfogW-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-34" value="Full description with coreference" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="346" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-36" target="pLNrlrs9xXk7MrMHfogW-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-36" value="&lt;b&gt;Step 3&lt;/b&gt;: Sentences are created from the previous step" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="205" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-38" target="pLNrlrs9xXk7MrMHfogW-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-38" value="&lt;b&gt;Step 4&lt;/b&gt;: Each sentence is passed to the spacy NER base model and filter those token which are either org, person, and loc" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="345" width="260" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-40" target="pLNrlrs9xXk7MrMHfogW-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-40" value="&lt;b&gt;Step 5&lt;/b&gt;: Filter sentences based on job title 1 and location 1&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="355.63" width="174" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-41" target="pLNrlrs9xXk7MrMHfogW-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-41" value="&lt;b&gt;Step 6&lt;/b&gt;: Pass the sentence from &lt;b&gt;step 5 &lt;/b&gt;and &lt;b&gt;stanford pretrain openie &lt;/b&gt;annotator or corenlp&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="343.13" width="220" height="88.75" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-42" target="pLNrlrs9xXk7MrMHfogW-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-42" value="&lt;b&gt;Filtration 1&lt;/b&gt;: Triples are filter if subject or object contains org, person, and loc&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="520" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-45" target="pLNrlrs9xXk7MrMHfogW-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-45" value="&lt;b&gt;Filtration 2&lt;/b&gt;: Check if&amp;nbsp; different subjects has same relationship and sentences following ontology&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="505" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNrlrs9xXk7MrMHfogW-47" target="pLNrlrs9xXk7MrMHfogW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-47" value="&lt;b&gt;Step 7&lt;/b&gt;: Validate these ontologies based on relations that we have in dictionary" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="630" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-49" value="&lt;b&gt;Step 8&lt;/b&gt;: Filter only good triples from&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="810" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="670" as="sourcePoint" />
+            <mxPoint x="240" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="670" as="sourcePoint" />
+            <mxPoint x="240" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-55" value="&lt;b&gt;Ontology 1&lt;/b&gt;: Job title (org person and vice versa)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-56" value="&lt;b&gt;Ontology 2&lt;/b&gt;: Location1 (org to loc and vice versa)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-57" value="Some conditions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-58" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="600" as="sourcePoint" />
+            <mxPoint x="474" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="450" />
+              <mxPoint x="474" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="600" as="sourcePoint" />
+            <mxPoint x="250" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-60" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="400" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-62" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="280" as="sourcePoint" />
+            <mxPoint x="1280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-63" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="740" as="sourcePoint" />
+            <mxPoint x="830" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-64" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="740" as="sourcePoint" />
+            <mxPoint x="1280" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-65" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="740" as="sourcePoint" />
+            <mxPoint x="1280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="280" as="sourcePoint" />
+            <mxPoint x="890" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-67" value="Hard code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-68" value="Person and person org ==&amp;gt; fetches person person org as well as org person and person" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="310" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-69" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;person_org and person_org_pattern&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="430" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-70" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;person_org_relation | org relation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="540" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNrlrs9xXk7MrMHfogW-71" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;org_loc_relation and loc org&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="660" width="380" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
