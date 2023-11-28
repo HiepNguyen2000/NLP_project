@@ -10,7 +10,8 @@
 
 - **Name:** Custom BERT Model
 - **Description:** The custom BERT model is fine-tuned for relation classification. It uses the 'bert-base-uncased' pretrained model and has four labels: 'noRelation', 'employedBy', 'managerOf', and 'locatedAt'.
-- ![Diagram](Diagram/Custom_code_diagram.drawio.png)
+- **Diagram:**
+ ![Diagram](Diagram/Custom_code_diagram.drawio.png)
 
 ## How to Run the Code
 
