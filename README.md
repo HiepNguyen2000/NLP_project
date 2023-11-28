@@ -67,4 +67,3 @@
 
 Make sure to replace placeholders such as 'path/to/your/checkpoint.ckpt' and '[YourPassword]' with the actual paths and passwords.
 
-Feel free to expand on each section with more details or specific instructions as needed.
