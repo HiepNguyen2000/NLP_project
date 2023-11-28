@@ -18,8 +18,8 @@ In this project, our focus is on uncovering named entity relations (NER) within 
 
 1. **Pretrained OpenIE Model:**
     - Install the requirement library `pip install OpenIE`
-    - Install java in windows using the link http://jdk.javTa.net/archive/
-    - Clone the core nlp model using the link. https://nlp.stanford.edu/software/stanford-corenlp-4.2.2.zip and unzip it. Then set the path to unzipped file in environment variables.
+    - Install [Java](http://jdk.javTa.net/archive/) in windows.
+    - Clone the [core NLP model](https://nlp.stanford.edu/software/stanford-corenlp-4.2.2.zip) and unzip it. Then set the path to unzipped file in environment variables.
     - Run the `nlu_pretrained_model.py` file to initialize and use the OpenIE model.
 
     ```python
