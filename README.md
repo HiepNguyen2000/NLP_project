@@ -17,6 +17,9 @@ In this project, our focus is on uncovering named entity relations (NER) within 
 ## How to Run the Code
 
 1. **Pretrained OpenIE Model:**
+    - Install the requirement library `pip install OpenIE`
+    - Install java in windows using the link http://jdk.javTa.net/archive/
+    - Clone the core nlp model using the link. https://nlp.stanford.edu/software/stanford-corenlp-4.2.2.zip and unzip it. Then set the path to unzipped file in environment variables.
     - Run the `nlu_pretrained_model.py` file to initialize and use the OpenIE model.
 
     ```python
@@ -28,7 +31,7 @@ In this project, our focus is on uncovering named entity relations (NER) within 
     print(f"Predicted Relation: {prediction1}")
     ```
 
-2. **Custom BERT Model:**
+3. **Custom BERT Model:**
     - Run the `nlu_custom_model.py` file to initialize and use the Custom BERT model.
 
     ```python
